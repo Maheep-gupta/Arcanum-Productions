@@ -34,7 +34,7 @@ function VideosCard({ videoImageUrl }) {
             >
                 <video
                     ref={videoRef}
-                    src={previewVideo}
+                    src="https://res.cloudinary.com/dedumcwij/video/upload/v1724441813/preview_mejy4s.mp4"
                     loop
                     muted
                     className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}
