@@ -10,7 +10,7 @@ function Footer() {
                   <h1 className='md:text-6xl text-5xl font-semibold pt-3'>See it first</h1>
               </div>
               <div className="email-form">
-                  <input type="email" name="userEmail" id="userEmal"  className='bg-inherit placeholder:text-white pl-2 py-1 border-2 border-white pr-36' placeholder='Enter your Email here'/>
+                  <input type="email" name="userEmail" id="userEmal"  className='bg-inherit placeholder:text-white pl-2 py-1 border-2 border-white md:pr-36 pr-24' placeholder='Enter your Email here'/>
                   <button className='uppercase border-2 px-5 py-1 md:ml-4 border-red-600 text-red-600 md:m-0 my-2'>Subscribe</button>
               </div>
               <div className="copyright flex gap-6">

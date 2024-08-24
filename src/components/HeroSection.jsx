@@ -15,10 +15,10 @@ function HeroSection() {
           className='h-full w-full object-cover'
         ></iframe>
       </div>
-      <div className='video-overlay absolute bottom-5 left-32 text-white md:w-[500px] flex flex-col gap-3'>
-        <p className='text-lg'>Empower Your YouTube Career</p>
-        <h1 className='font-bold text-5xl'>{details.companyName}</h1>
-        <p>{details.desc}</p>
+      <div className='video-overlay absolute bottom-5 md:left-32 left-5 text-white md:w-[500px] w-[250px] flex flex-col gap-3'>
+        <p className='md:text-lg'>Empower Your YouTube Career</p>
+        <h1 className='font-bold md:text-5xl text-3xl'>{details.companyName}</h1>
+        <p className='text-sm'>{details.desc}</p>
       </div>
     </main>
   );
