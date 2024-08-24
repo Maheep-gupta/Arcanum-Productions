@@ -6,7 +6,7 @@ function Navbar() {
     <header className='text-white fixed top-0 z-10 w-full'>
     <nav className='bg-[#282828] flex justify-between pl-10 pr-10 py-8 '>
         <div className='Logo'>{details.companyName}</div>
-        <div className='nav-items '>
+        <div className='nav-items md:block hidden '>
             <ul className='list-none flex gap-5'>
             <li><a href='#'>Home</a></li>
             <li><a href='#'>Catalog</a></li>
@@ -17,6 +17,7 @@ function Navbar() {
             {/* <li>icon</li> */}
         </ul>
         </div>
+        <div className='hamburger md:hidden '>=</div>
     </nav>
 </header>
   )

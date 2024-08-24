@@ -4,14 +4,14 @@ import details from '../../data/details'
 function Footer() {
   return (
       <>
-          <div className='pl-52 py-6 flex flex-col gap-6'>
-              <div className="newsLetterTittle h-48 border-l-2 pl-4 border-white">
-                  <p className='text-md'>{details.companyName} Newsletter</p>
-                  <h1 className='text-6xl font-semibold pt-3'>See it first</h1>
+          <div className='md:pl-52 pl-5 py-6 flex flex-col gap-6'>
+              <div className="newsLetterTittle md:h-48 h-32 border-l-2 pl-4 border-white">
+                  <p className='md:text-md text-sm'>{details.companyName} Newsletter</p>
+                  <h1 className='md:text-6xl text-5xl font-semibold pt-3'>See it first</h1>
               </div>
               <div className="email-form">
                   <input type="email" name="userEmail" id="userEmal"  className='bg-inherit placeholder:text-white pl-2 py-1 border-2 border-white pr-36' placeholder='Enter your Email here'/>
-                  <button className='uppercase border-2 px-5 py-1 ml-4 border-red-600 text-red-600'>Subscribe</button>
+                  <button className='uppercase border-2 px-5 py-1 md:ml-4 border-red-600 text-red-600 md:m-0 my-2'>Subscribe</button>
               </div>
               <div className="copyright flex gap-6">
                   &copy; 2035 by {details.companyName}. 

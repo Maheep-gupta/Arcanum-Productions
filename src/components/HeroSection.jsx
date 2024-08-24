@@ -15,7 +15,7 @@ function HeroSection() {
           className='h-full w-full object-cover'
         ></iframe>
       </div>
-      <div className='video-overlay absolute bottom-5 left-32 text-white w-[500px] flex flex-col gap-3'>
+      <div className='video-overlay absolute bottom-5 left-32 text-white md:w-[500px] flex flex-col gap-3'>
         <p className='text-lg'>Empower Your YouTube Career</p>
         <h1 className='font-bold text-5xl'>{details.companyName}</h1>
         <p>{details.desc}</p>
